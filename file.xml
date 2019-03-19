@@ -3,7 +3,6 @@
    <!ELEMENT foo ANY >
    <!ENTITY xxe SYSTEM "file:///file.txt" >]><foo>&xxe;</foo>
 
-<rss version="2.0">
 <channel>
 <title>xkcd.com</title>
 <link>https://xkcd.com/</link>
