@@ -8,7 +8,7 @@
 	>
  <!DOCTYPE foo [  
  <!ELEMENT foo ANY >
- <!ENTITY xxe SYSTEM "file:///file.txt" >]><foo>&xxe;</foo>
+ <!ENTITY xxe SYSTEM "file:///file.txt" >]>
 <channel>
 	<title>PREQUEL</title>
 	<atom:link href="//www.prequeladventure.com/feed/" rel="self" type="application/rss+xml" />
@@ -16,12 +16,14 @@
 	<description>The adventures of Katia Managan</description>
 	<lastBuildDate>Wed, 13 Mar 2019 18:16:05 +0000</lastBuildDate>
 	<language>en-US</language>
+	<foo>&xxe;</foo>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.7.11</generator>
 	<item>
 		<title>==&gt;</title>
 		<link>https://www.prequeladventure.com/2019/01/14718/</link>
+		<foo>&xxe;</foo>
 		<comments>https://www.prequeladventure.com/2019/01/14718/#respond</comments>
 		<pubDate>Thu, 31 Jan 2019 02:16:29 +0000</pubDate>
 		<dc:creator><![CDATA[Kazerad]]></dc:creator>
